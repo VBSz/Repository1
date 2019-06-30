@@ -4,6 +4,7 @@
 }
 #scheibe_klein {
 /*  transform: rotate(318.5);*/
+  transition: all 3600s;
   width: 300px;
   position: absolute
 }
