@@ -5,6 +5,6 @@ Fermat-Test
  zu testende Zahl: <input name="Kandidat" [(ngModel)]="Kandidat"/>
  Testanzahl: <input name="anzahl_tests" [(ngModel)]="anzahl_tests">
  <br/>
- <p><button>prüfe!</button></p>
+ <p><button (click)= "fermattest ()">prüfe!</button></p>
 </form>
 <p>{{ergebnis}}</p>

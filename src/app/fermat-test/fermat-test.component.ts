@@ -11,6 +11,21 @@ export class FermatTestComponent implements OnInit {
   anzahl_tests: number = 5;
   ergebnis = "N/A"
   constructor() { }
+  fermattest() {
+    let zeuge = 2;
+    // Berechne zeuge^(Kandidat-1) modulo Kandidat
+    let zwischenergebnis = 1;
+    for (let i = 0; i < this.Kandidat - 1; i++) {
+      zwischenergebnis = zwischenergebnis * zeuge;
+    }
+    zwischenergebnis = zwischenergebnis % this.Kandidat
+    if (zwischenergebnis === 1) {
+      this.ergebnis += "Zeuge" + zeuge + "OK...";
+    } else {
+      this.ergebnis += "Zeuge" + zeuge + "NICHT OK!";
+    }
+      this.ergebnis = "Zwischenergebnis: " + zwischenergebnis;
+  }
 
   ngOnInit() {
   }
