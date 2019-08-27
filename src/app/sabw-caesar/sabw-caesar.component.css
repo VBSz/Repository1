@@ -11,3 +11,23 @@
 #container {
   height: 300px
 }
+h1 {
+  color: blue;
+  border: 2px solid rgb(255,200,0);
+  width: 157px;
+}
+h2 {
+  background: rgb(240,255,255);
+  color: rgb(255,200,0);
+}
+#boi {
+  color: rgb(255,0,0);
+  width: 10px;
+  transform: rotate(180deg);
+}
+#scheibe {
+  width: 300px
+}
+#scheibe_klein {
+  width: 300xp
+}
