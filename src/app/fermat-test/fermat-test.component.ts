@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FermatTestComponent implements OnInit {
 
+  Kandidat: number = 13;
+  anzahl_tests: number = 5;
+  ergebnis = "N/A"
   constructor() { }
 
   ngOnInit() {
