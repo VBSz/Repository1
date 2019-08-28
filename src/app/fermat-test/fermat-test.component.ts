@@ -33,7 +33,7 @@ export class FermatTestComponent implements OnInit {
       this.ergebnis += " Test bestanden "
     }
     else {
-      this.ergebnis += " Test nicht bestanden "
+      this.ergebnis += " Test HET bestanden "
     }
   }
 
